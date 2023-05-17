@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1B1924;
+    user-select: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 317px;
+    margin: 30px auto;
+}
+
+img{
+    width: 100px;
+    margin: 0 auto;
+}
+
+#textarea-el{
+    background-color: #444059;
+    border: 0;
+    border-radius: 8px;
+    padding: 15px;
+    font-size: 15px;
+    font-family: inter;
+    height: 118px;
+    color: #8F8F8F;
+}
+
+button{
+    background: #28A9F1;
+    border-radius: 8px;
+    padding: 15px;
+    border: 0;
+    margin: 15px 0px 20px 0px;
+    font-family: 'Josefin Sans';
+    font-size: 22px;
+    cursor: pointer;
+    width: 100%;
+}
+
+h1, h2 {
+    color: white;
+    font-family: 'Josefin Sans';
+}
+
+h1{
+    font-size: 25px;
+    text-align: center;
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-family: inter;
+    max-width: 317px;
+}
+
+ul li {
+    font-size: 12px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    color: #1B1924;
+    flex-grow: 1;
+}
+
+ul li:hover {
+    background-color: #98cfed;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #5bbaf0;
+}
+
+#endorsement-el{
+    color: white;
+}
